@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c88e2d;
+  --color-gold-dark: #a97120;
+  --color-gold-light: #e5c27d;
+  --color-ink: #171513;
+  --color-cream: #fbf7f1;
+  --color-line: #eadfd2;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: 'DM Sans', sans-serif; color: #171513; background: #fff; line-height: 1.5; }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+img { max-width: 100%; display: block; }
+
+/* Tiny reusable brand helpers only; layout/styling is Tailwind utility classes. */
+.font-display { font-family: 'Playfair Display', serif; }
