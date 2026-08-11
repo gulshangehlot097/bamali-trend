@@ -203,7 +203,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-3.5 md:col-span-12 lg:col-span-3 lg:grid-cols-1">
               <Stat
                 icon={<HeartHandshake size={22} className="text-[#c3892b]" />}
-                value="5000+"
+                value="50000+"
                 label="Happy Customers"
               />
               <Stat
